@@ -7,7 +7,7 @@ namespace SharperCrafting
         public static SystemConsoleTheme BlueConsole { get; } = new SystemConsoleTheme(
             new Dictionary<ConsoleThemeStyle, SystemConsoleThemeStyle>
         {
-            [ConsoleThemeStyle.Text] = new SystemConsoleThemeStyle { Foreground = ConsoleColor.Blue },
+            [ConsoleThemeStyle.Text] = new SystemConsoleThemeStyle { Foreground = ConsoleColor.Cyan },
             [ConsoleThemeStyle.SecondaryText] = new SystemConsoleThemeStyle { Foreground = ConsoleColor.DarkGray },
             [ConsoleThemeStyle.TertiaryText] = new SystemConsoleThemeStyle { Foreground = ConsoleColor.DarkGray },
             [ConsoleThemeStyle.Invalid] = new SystemConsoleThemeStyle { Foreground = ConsoleColor.DarkYellow },
